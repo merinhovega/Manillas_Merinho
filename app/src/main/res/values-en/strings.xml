@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Merinho_Bracelet</string>
+    <string name="titulo">Bracelets</string>
+    <string name="cuero">Leather</string>
+    <string name="cuerda">Cord</string>
+    <string name="borrar">Clear</string>
+    <string name="pagar">To pay</string>
+    <string name="cantidad">Quantity</string>
+    <string name="apagar">Total to pay</string>
+    <string name="ancla">Anchor</string>
+    <string name="martillo">Hammer</string>
+    <string name="oro">Gold</string>
+    <string name="oroRosado">" Pink gold"</string>
+    <string name="plata">Silver</string>
+    <string name="niquel">Nickel</string>
+    <string name="cop">COP</string>
+    <string name="usd">USD</string>
+    <string name="material">Material</string>
+    <string name="dije">Pendant</string>
+    <string name="tipo">Type</string>
+    <string name="moneda">Coin</string>
+    <string name="cantidadVacio">The quantity field is mandatory</string>
+    <string name="cantidadMayorCero">The amount field must be greater than 0</string>
+    <string name="total">$0.00</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/material"
+        android:textColor="#3F51B5"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/cmbMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:id="@+id/txtDije"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dije"
+        android:textColor="#3F51B5"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/cmbDije"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/txtTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo"
+        android:textColor="#3F51B5"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/cmbTipo"
+        android:layout_width="match_parent"
+        android:layout_height="51dp" />
+
+    <TextView
+        android:id="@+id/txtMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/moneda"
+        android:textColor="#3F51B5"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/cmbMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/txtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/cantidad"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPagar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="valorApagar"
+            android:text="@string/pagar"
+            app:iconTint="#2196F3" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="borrar"
+            android:text="@string/borrar"
+            app:iconTint="#858788" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblApagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apagar"
+        android:textAllCaps="true"
+        android:textColor="#282829"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

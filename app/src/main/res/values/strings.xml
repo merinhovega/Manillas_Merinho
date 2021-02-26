@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Manillas_Merinho</string>
+    <string name="titulo">Manillas</string>
+
+    <string name="borrar">Borrar</string>
+    <string name="pagar">Pagar</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="apagar">Total a pagar</string>
+
+    <string name="cuero">Cuero</string>
+    <string name="cuerda">Cuerda</string>
+    <string-array name="material">
+        <item>@string/cuero</item>
+        <item>@string/cuerda</item>
+    </string-array>
+
+    <string name="ancla">Ancla</string>
+    <string name="martillo">Martillo</string>
+    <string-array name="dije">
+        <item>@string/ancla</item>
+        <item>@string/martillo</item>
+    </string-array>
+
+    <string name="oro">Oro</string>
+    <string name="oroRosado">Oro rosado</string>
+    <string name="plata">Plata</string>
+    <string name="niquel">Niquel</string>
+    <string-array name="tipo">
+        <item>@string/oro</item>
+        <item>@string/oroRosado</item>
+        <item>@string/plata</item>
+        <item>@string/niquel</item>
+    </string-array>
+
+    <string name="cop">COP</string>
+    <string name="usd">USD</string>
+    <string name="material">Material</string>
+    <string name="dije">Dije</string>
+    <string name="tipo">Tipo</string>
+    <string name="moneda">Moneda</string>
+    <string-array name="moneda">
+        <item>@string/cop</item>
+        <item>@string/usd</item>
+    </string-array>
+    <string name="cantidadVacio">El campo cantidad es obligatorio</string>
+    <string name="cantidadMayorCero">El campo cantidad debe ser mayor a 0</string>
+    <string name="total">$0.00</string>
+
+</resources>
